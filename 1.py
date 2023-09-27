@@ -48,7 +48,6 @@ else:
     print("Максимальный делитель:", max_divisor)
     print("Минимальный делитель:", min_divisor)
 
-
 # Задание 4
 my_dict = {'a': 12, 'b': 13, 'c': 56, 'd': 400, 'e': 58, 'f': 20}
 print("Исходный словарь:", my_dict)
@@ -58,7 +57,6 @@ top_keys = sorted(my_dict, key=my_dict.get, reverse=True)[:3]
 print("Три ключа с самыми высокими значениями:")
 for key in top_keys:
     print(key)
-
 
 # Задание 6
 my_tuple = (5, -3, 8, -2, 4, 7)
